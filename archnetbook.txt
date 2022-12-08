@@ -1,0 +1,21 @@
+Este archivo lo creo en 
+mi netbook
+
+Tuve muchos problemas para subirlo
+primero creo el archivo, 
+luego en la consola hago: 
+    git add archnetbook.txt
+    git commit -m "texto explicativo" *no olvidar la -m, ni el "texto explicativo"
+hay un mensaje al que no preste atención pero me impide el push
+y es autenticar nombre y correo
+
+ *** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+    git pull
+pero para el git push se trabo 
+1° requeiere un git pull, para traer cambios (porque habia cambios desde el repo)
