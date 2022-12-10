@@ -20,5 +20,5 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.mifuncion_inicio)
+    path('', views.mifuncion_inicio, name="index")
 ]
