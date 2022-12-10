@@ -5,4 +5,7 @@ class Producto(models.Model):
     precio = models.DecimalField(max_digits=6, decimal_places=2)
     descripcion = models.TextField()
 
+    def __str__(self): 
+        return self.nombre
+
 # Create your models here.
